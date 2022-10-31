@@ -1,0 +1,47 @@
+{
+  "name": "client2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "gen": "yarn graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@apollo/client": "^3.7.1",
+    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-ssr": "^4.0.0",
+    "@graphql-codegen/cli": "^2.13.8",
+    "@graphql-codegen/typescript": "^2.8.0",
+    "@graphql-codegen/typescript-operations": "^2.5.5",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.5",
+    "apollo-boost": "^0.4.9",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-token-refresh": "^0.4.0",
+    "cookie": "^0.5.0",
+    "deepmerge": "^4.2.2",
+    "graphql": "^16.6.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "next": "13.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.13.8",
+    "@graphql-codegen/client-preset": "1.1.1",
+    "@types/cookie": "^0.5.1",
+    "@types/graphql": "^14.5.0",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/node": "^18.11.8",
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0",
+    "typescript": "4.8.4"
+  }
+}
